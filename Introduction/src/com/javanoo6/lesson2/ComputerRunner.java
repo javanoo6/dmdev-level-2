@@ -17,5 +17,9 @@ public class ComputerRunner {
         Computer superComputer = new Computer(9000, 32000);
         superComputer.printComputerInfo();
 
+        superComputer.load();
+        superComputer.load(true);
+        superComputer.load(true, 50);
+
     }
 }
