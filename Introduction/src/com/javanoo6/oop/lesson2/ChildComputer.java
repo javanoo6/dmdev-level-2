@@ -1,4 +1,4 @@
-package com.javanoo6.lesson2;
+package com.javanoo6.oop.lesson2;
 
 public class ChildComputer extends Computer {
     public void printChildComputerInfo() {
