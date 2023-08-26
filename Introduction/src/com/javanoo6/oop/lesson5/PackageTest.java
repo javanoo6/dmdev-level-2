@@ -1,6 +1,6 @@
-package com.javanoo6.lesson5;
+package com.javanoo6.oop.lesson5;
 
-import com.javanoo6.lesson2.Computer;
+import com.javanoo6.oop.lesson2.Computer;
 
 public class PackageTest {
 

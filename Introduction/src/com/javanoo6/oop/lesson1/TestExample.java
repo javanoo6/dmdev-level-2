@@ -1,4 +1,4 @@
-package com.javanoo6.lesson1;
+package com.javanoo6.oop.lesson1;
 
 public class TestExample {
     //Просто другя форма записи
