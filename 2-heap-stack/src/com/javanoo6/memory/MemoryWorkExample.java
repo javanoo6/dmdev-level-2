@@ -48,6 +48,10 @@ public class MemoryWorkExample {
     private void executeMethod(ObjectWithName referenceType) {
         // тк String это ссылочный тип данных, то и ссылка ссылка будет существовать только в рамках Stack памяти
         // само значение будет создано в Heap памяти
+        /** Почему здесь не используется ключевое слово new, хотя тип данных ссылочный:
+         *  Все строки перед их созданеим проверяются на сущестование в String Pool
+         *  Если такое строки нет, то оно будет создана, в противном случае создастся ссылка на уже существующую строку
+         */
         var objectName = referenceType.getName();
         // При завершении метода 'executeMethod' созданный блок на вершине Stack памяти будет удален (.pop(object))
         System.out.println(objectName);
