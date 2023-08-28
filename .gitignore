@@ -33,4 +33,4 @@ bin/
 /.idea/.gitignore
 /.idea/dmdev-level-2.iml
 /.idea/jpa-buddy.xml
-/Introduction/Introduction.iml
+/1-introduction/Introduction.iml
